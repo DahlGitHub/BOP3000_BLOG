@@ -140,7 +140,7 @@ const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
           name={<Henrik/>}
           color="text-green"
           role="Developer" 
-          image="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
+          image="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg"
           linkedin=""
           facebook=""
           github=""/>
