@@ -26,9 +26,9 @@ return (
             iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-success"></i>}
             title="Planning" 
             date="Week 2 | Sprint 0" 
-            description="Vi startet bachelorprosjektet med et møte med oppdragsgiver. Vi ble enige om hva slags teknologier vi skal bruke, samt hva som var de sentrale funksjonene å få med i applikasjonen. Websiden til prosjektet er oppe, og vil begynne å legge ut notater og diverse info der." 
-            author="Martin"
-            img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
+            description="Our first bachelor meeting, listed down potential bachelor project concepts, desired frameworks, software tools, programming language etc. Made a group contract while trying to define  our project's scope." 
+            author="Adrian"
+            img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
             />
 
             <BlogCard 
@@ -37,9 +37,9 @@ return (
 
             title="Bachelor Blog" 
             date="Week 3 | Sprint 0" 
-            description="Websiden til prosjektet er oppe, og vil begynne å legge ut notater og diverse info der." 
-            author="Martin"
-            img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
+            description="Website for the bachelor blog is up and running, here you'll find weekly sprint updates and important documents regarding the bachelor project." 
+            author="Adrian"
+            img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
             />
 
             <BlogCard 
@@ -47,10 +47,10 @@ return (
             iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-warning"></i>}
 
             title="Sketch" 
-            date="Week 3 | Sprint 0" 
-            description="Websiden til prosjektet er oppe, og vil begynne å legge ut notater og diverse info der." 
-            author="Jøran"
-            img_author="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
+            date="Week 4 | Sprint 0" 
+            description="Bachelor Project Idea has been choosen, the team is scrambling together use cases - preparing to write the actual sketch document for our bachelor." 
+            author="Adrian"
+            img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
             />
 
         </div>
