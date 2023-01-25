@@ -1,4 +1,5 @@
 import InfoBlock from "./InfoBlock";
+import Sketch from "../../../assets/pdf/Sketch.pdf";
 
 const Documents = () => {
 
@@ -14,9 +15,10 @@ const Documents = () => {
         </div>
         <div class="row my-5">
 
-        <InfoBlock 
+        <InfoBlock
+            link={Sketch}
             title="Sketch.docx"
-            description="Coming soon"
+            description="Small sketch for the Hexacore project."
             icon={<i class="fa-solid fa-file-word fa-stack-1x bg-fix block w-100 mb-4 text-primary"></i>}
             iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-primary"></i>}/>
 
