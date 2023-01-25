@@ -246,6 +246,9 @@ footer > p:hover {
     box-shadow: none !important;
 }
 
+.item {
+    font-size: 3rem;
+}
 
 
 @keyframes animate {
@@ -368,3 +371,7 @@ footer > p:hover {
         display: none;
     }
   }
+
+  .owl-carousel .owl-stage {
+    transition-timing-function: linear !important;
+}

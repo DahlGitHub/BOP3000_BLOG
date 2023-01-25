@@ -16,7 +16,7 @@ const Tech = () => {
           <span class="text-red">
             <Typewriter 
               options={{
-                strings: ['TypeScript', 'ReactJS', 'PostgreSQL', 'JavaScript'],
+                strings: ['TypeScript', 'React', 'PostgreSQL', 'JavaScript', 'Adobe Xd', 'GitHub', 'Firebase', 'HTML5', 'CSS3', 'NodeJS', 'Trello'],
                 autoStart: true,
                 loop: true,
                 delay: 100,
@@ -32,21 +32,48 @@ const Tech = () => {
         <div class="row my-5 text-center small">
         <OwlCarousel className='owl-theme' 
         loop margin={50}
-        autoHeight={false}
+        autoHeight={true}
         autoplay={true} 
         center={false}
         mouseDrag={false}
         dots={false}
         nav={false}
-        autoplaySpeed={500}
-        autoplayTimeout={500}
-        items={16}>
+        autoplaySpeed={2500}
+        autoplayTimeout={2500}
+        items={5}>
 
     <div class='item'>
-      <img src="https://cdn.discordapp.com/attachments/1064270341901389865/1065939303089315850/icons8-adobe-xd-48.png"/>
+      <i class="devicon-typescript-plain colored"></i>
     </div>
     <div class='item'>
-      <img src="https://cdn.discordapp.com/attachments/1064270341901389865/1065939303089315850/icons8-adobe-xd-48.png"/>
+      <i class="devicon-javascript-plain colored"></i>
+    </div>
+    <div class='item'>
+      <i class="devicon-react-original colored"></i>
+    </div>
+    <div class='item'>
+      <i class="devicon-xd-plain colored"></i>    
+    </div>
+    <div class='item'>
+      <i class="devicon-github-original colored"></i>      
+    </div>
+    <div class='item'> 
+      <i class="devicon-postgresql-plain colored"></i>          
+    </div>
+    <div class='item'> 
+      <i class="devicon-firebase-plain colored"></i>             
+    </div>
+    <div class='item'> 
+      <i class="devicon-html5-plain colored"></i>     
+    </div>
+    <div class='item'> 
+      <i class="devicon-css3-plain colored"></i>     
+    </div>
+    <div class='item'> 
+      <i class="devicon-nodejs-plain colored"></i>    
+    </div>
+    <div class='item'> 
+      <i class="devicon-trello-plain colored"></i>  
     </div>
 
 </OwlCarousel>
