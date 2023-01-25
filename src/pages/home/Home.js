@@ -12,7 +12,7 @@ import { useScramble} from 'use-scramble';
 const Title = () => {
 
   const { ref, replay} = useScramble({
-    text: "Application Name",
+    text: "Hexacore",
     speed: 0.3,
     tick: 1,
     step: 1,

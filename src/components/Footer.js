@@ -49,6 +49,7 @@ const Footer = () => {
 
   </div>
 </div>
+<div class="text-content small text-center"><small>Copyright @ 2023 Hexacore Blog</small></div>
 
 <div class="container pb-3">
   <hr/>
@@ -59,7 +60,6 @@ const Footer = () => {
               <img src="https://www.usn.no/getfile.php/13520469-1525427372/usn.no/om_USN/Logo%20og%20grafiske%20elementer/USN_logotype.png" alt="" height="40" className="d-i"/>
               University of South-Eastern Norway
           </small>
-          <small class="text-sub-title col-lg-6 col-md-12 text-end">Copyright @ 2023 Bachelor</small>
         </span>
     </div>
 
