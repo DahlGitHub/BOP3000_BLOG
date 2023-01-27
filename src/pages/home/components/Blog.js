@@ -53,6 +53,17 @@ return (
             img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
             />
 
+            <BlogCard 
+            icon={<i class="fa-solid fa-lightbulb fa-stack-1x text-success"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-success"></i>}
+
+            title="Planlegging" 
+            date="Week 5 | Sprint 1" 
+            description="We started the week by delivering the sketch document for our bachelor. Which lead to us all discussing logos and a color scheme for our brand. Some of us even started looking and experimenting with technologies we want to use. We discovered that we need a simple wireframe to help us all get a vision of how the service will look." 
+            author="Jøran"
+            img_author="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
+            />
+
         </div>
             
         </div>

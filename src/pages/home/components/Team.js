@@ -72,7 +72,7 @@ const Henrik = () => {
   )
 }
 
-const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
+const TeamCard = ({name, role, image, github, linkedin, color}) => (
 
     <div class="col-lg-3 col-sm-6 col-xs-6 grayscale hvr-float">
       <div class={color} data-aos="zoom-in-down" data-aos-duration="800">
@@ -115,8 +115,8 @@ const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
           color="text-green"
           image="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
           linkedin=""
-          facebook=""
-          github=""/>
+   
+          github="https://github.com/DahlGitHub"/>
 
           <TeamCard 
           name={<Martin/>}
@@ -124,8 +124,8 @@ const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
           role="Developer" 
           image="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
           linkedin=""
-          facebook=""
-          github=""/>
+          
+          github="https://github.com/Wohine"/>
 
           <TeamCard 
           name={<Jøran/>}
@@ -133,8 +133,8 @@ const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
           role="Developer" 
           image="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
           linkedin=""
-          facebook=""
-          github=""/>
+        
+          github="https://github.com/Jorancj"/>
 
           <TeamCard 
           name={<Henrik/>}
@@ -142,8 +142,8 @@ const TeamCard = ({name, role, image, github, facebook, linkedin, color}) => (
           role="Developer" 
           image="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg"
           linkedin=""
-          facebook=""
-          github=""/>
+       
+          github="https://github.com/Linrik/"/>
 
         </div>
         
