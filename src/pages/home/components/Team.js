@@ -86,7 +86,6 @@ const TeamCard = ({name, role, image, github, linkedin, color}) => (
           <div class="m-2">
           <a href={github} target="_blank"><i class="fa-brands mx-3 fa-github"></i></a>
           <a href={linkedin} target="_blank"><i class="fa-brands mx-3 fa-linkedin-in"></i></a>
-          <a href={facebook} target="_blank">{<i class="fa-brands mx-3 fa-facebook-f"></i>}</a>
           </div>
         </div>
       </div>
