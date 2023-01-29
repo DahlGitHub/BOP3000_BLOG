@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
+import logo from '../assets/logo/logospacing.png';
 
 const Footer = () => {
 
@@ -12,7 +13,7 @@ const Footer = () => {
   <div class="row mt-3">
   
     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
-      <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" width="100"/>
+      <img src={logo} width="100"/>
     </div>
 
     <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4 small">

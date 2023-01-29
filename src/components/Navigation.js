@@ -1,6 +1,7 @@
 import React from 'react'
 import { HashLink } from 'react-router-hash-link';
 import TextScramble from '@skits/react-text-scramble';
+import logo from '../assets/logo/logospacing.png';
 
 const scrollTop = () => {
   window.scrollTo({top: 0, behavior: 'smooth'});
@@ -10,7 +11,7 @@ const NavigationItem = ({name, url="unknown"}) => {
     let activeStyle = "active-page";
     let inActiveStyle = "nav-link";
     return (
-      <li class="nav-item px-3">
+      <li class="nav-item px-3 py-3">
         <HashLink smooth to={url} onClick={CloseNav} className={({ isActive }) => inActiveStyle + (isActive? " "+activeStyle : "")}>
           {name}
         </HashLink>
@@ -25,7 +26,7 @@ const NavigationItem = ({name, url="unknown"}) => {
 const BrandItem = () => (
     <HashLink className="navbar-brand nav-style" onClick={scrollTop}>
       <img
-        src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png"
+        src={logo}
         alt="" height="75" className="d-i"/>
     </HashLink>
   )

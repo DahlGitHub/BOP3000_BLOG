@@ -1,4 +1,5 @@
 import Typewriter from 'typewriter-effect';
+import logo from '../../../assets/logo/logospacing.png';
 
 const Description = () => {
     return (
@@ -8,7 +9,7 @@ const Description = () => {
 
               <div class="col-md-6 col-sm-12 animate text-center">
                 <div class="py-5 pb-5 container">
-                 <img src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" width="300" class="img-fluid rounded"/>
+                 <img src={logo} width="300" class="img-fluid rounded"/>
                 </div>
               </div>
 
