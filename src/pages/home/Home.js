@@ -30,7 +30,7 @@ const Title = () => {
 
 const Frontpage = () => {
   return (
-    <div className="bg-light py-5" id="top">
+    <div className="bg-light" id="top">
       <div className="bg-svg rounded-4 mx-5">
     
       
