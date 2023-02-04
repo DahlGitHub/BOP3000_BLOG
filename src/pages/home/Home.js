@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import OwlCarousel from 'react-owl-carousel';
+
 
 import Description from './components/Description'
 import Documents from './components/Documents'

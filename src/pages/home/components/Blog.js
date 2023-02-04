@@ -13,7 +13,7 @@ return (
                 </div>
               </div>
               <div className="col-md-6 col-sm-12">
-            <span class="text-number text-primary">03.</span>
+            <span class="text-number text-primary">03 sss.</span>
             <p class="text-title text-break">Bachelor Blog</p>
             <span class="text-content">Weekly project reports for the bachelor, summarizes the status and progress within the given week and sprint.</span>
             </div>
