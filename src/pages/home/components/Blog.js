@@ -13,7 +13,7 @@ return (
                 </div>
               </div>
               <div className="col-md-6 col-sm-12">
-            <span class="text-number text-primary">03 sssssssssss.</span>
+            <span class="text-number text-primary">03.</span>
             <p class="text-title text-break">Bachelor Blog</p>
             <span class="text-content">Weekly project reports for the bachelor, summarizes the status and progress within the given week and sprint.</span>
             </div>
@@ -57,11 +57,27 @@ return (
             icon={<i class="fa-solid fa-lightbulb fa-stack-1x text-success"></i>}
             iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-success"></i>}
 
-            title="Planlegging" 
+            title="The Idea" 
             date="Week 5 | Sprint 1" 
             description="We started the week by delivering the sketch document for our bachelor. Which lead to us all discussing logos and a color scheme for our brand. Some of us even started looking and experimenting with technologies we want to use. We discovered that we need a simple wireframe to help us all get a vision of how the service will look." 
             author="Jøran"
             img_author="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
+            />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="The beginning" 
+            date="Week 6 | Sprint 1" 
+            description="The team has begun to research the tech stack, with steady progress. Both the frontend and the backend team has clear goals ahead for the sprint. 
+            
+            We have decided to scrap the SQL database and have now set our eyes on the hosting and NOSQL database service Firebase. Reasons as to why we decided to change is because we wanted a realtime database that can handle a lot of traffic at once compared to a SQL database, and because of the horizontal scalability of a NOSQL database. Even though we wont get much traffic on the site in the start. We think it's better to prepare for potential traffic that could come. Firebase might not be the most cost efficient in the long run, but we believe its better and easier to transition from one NOSQL db to another NOSQL db. The group feels confident in this solution as we have a good background with Firebase’s services.
+            
+           
+            The frontend team has decided upon Next UI as our design library. This is due to its compatibility and size when using NextJS. Font and general design rules are in the works. The login system is close to complete, and the application has been deployed."
+            author="Martin"
+            img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
             />
 
         </div>
