@@ -48,44 +48,16 @@ const Navigation = () => {
         <ul className="navbar-nav text-content">
 
           <NavigationItem 
-            name={
-              <TextScramble 
-                text="Project" 
-                revealSpeed={200}
-                revealText
-                revealMode="typewriter" 
-              />
-            } 
+            name="Project"
             url="/#project"
           />
-          <NavigationItem name={
-              <TextScramble 
-                text="Documents" 
-                revealSpeed={300}
-                revealText
-                revealMode="typewriter" 
-              />
-            }  
+          <NavigationItem name="Documents"
             url="/#documents"
           />
-          <NavigationItem name={
-              <TextScramble 
-                text="Blog" 
-                revealSpeed={600}
-                revealText
-                revealMode="typewriter" 
-              />
-            }  
+          <NavigationItem name="Blog"
             url="/#blog"
           />
-          <NavigationItem name={
-              <TextScramble 
-                text="Team" 
-                revealSpeed={800}
-                revealText
-                revealMode="typewriter" 
-              />
-            }  
+          <NavigationItem name="Team"
             url="/#team"
           />
     
