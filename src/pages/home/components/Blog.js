@@ -80,6 +80,16 @@ return (
             img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
             />
 
+            <BlogCard 
+            icon={<i class="fa-solid fa-bell fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="Milestone 1" 
+            date="Week 7 | Sprint 1" 
+            description="We’ve finished milestone 1 presentation, explaining our project and our decisions around our project. We’ve begun looking at the realtime data which is essential for communication on our site. Our domain has been set up to https://hexacore.no/ for our application. "
+            author="Henrik"
+            img_author="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg"
+            />
         </div>
             
         </div>
