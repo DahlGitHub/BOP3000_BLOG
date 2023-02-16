@@ -29,9 +29,18 @@ const Description = () => {
                         }}
                       /></span>
                     </span>
-                    <p class="text-content mt-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p class="text-content mt-4">
+                    Målet vårt med prosjektet er å utvikle en applikasjon som gjør det enklere for grupper å
+                    kommunisere, organisere, strukturere osv. arbeid innad i gruppen. Siden det finnes diverse
+                    verktøy man kan ta i bruk allerede i dag, er planen å gjøre undersøkelser av grupper som
+                    bruker andre verktøy for å se hva de liker og muligens savner i andre applikasjoner.
+                    </p>
                     <br/>
-                    <p class="text-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    <p class="text-content">Visjonen for applikasjonen Hexacore er en plattform som benytter ulike planleggingsverktøy
+                    for effektivisering av arbeid, slik at grupper kan velge selv hva de trenger for plattformen.
+                    Studenter som skal jobbe sammen i prosjekter eller organisasjoner med mange subgrupper
+                    er de mest logiske sluttbrukerne mener vi.
+                    </p>
          
                 </div>
               </div>

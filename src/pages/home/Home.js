@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-
+import { Link } from 'react-router-dom';
 
 import Description from './components/Description'
 import Documents from './components/Documents'
@@ -35,9 +35,9 @@ const Frontpage = () => {
     
       
         <div class="py-5 pb-5 container text-center">
-                    <p class="text-title text-break text-light text-uppercase"><Title/></p>
+                    <p class="text-title text-break text-light"><Title/></p>
                     <span class="text-title text-break text-light py-5">
-                    <small class="text-primary py-5">
+                    <small class="text-primary small py-5">
                     <Typewriter 
                         options={{
                           strings: ['Powerful', 'Simple', 'Innovative'],
@@ -50,9 +50,11 @@ const Frontpage = () => {
                         </small>
                     </span>
                     <div className='py-5'>
+                    <a target="_blank" href='https://hexacore.no'> 
                     <button type="button" className='btn btn-outline-light'>
-                    <i class="fa-solid fa-cube"></i><span class="text-content mx-2">Website</span>
+                    <i class="fa-solid fa-cube"></i><span class="text-content mx-2">Hexacore.no</span>
                     </button>
+                    </a>
                     </div>
 
         </div>
@@ -65,7 +67,6 @@ const Frontpage = () => {
       </div>
       <div className="frontprototype text-center">
 
-      <img src="https://cdn.discordapp.com/attachments/1021153022576959501/1065505289639579668/collaboration-main-screen.png" width="750" class="animate img-fluid"/>
 
       </div>
     </div>
