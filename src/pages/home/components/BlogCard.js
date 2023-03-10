@@ -15,7 +15,7 @@ const BlogCard = ({icon, iconbg, title, date, description, author, img_author}) 
           </div>
           <p class="card-text text-content small">
             
-            <p class="mx-3 mt-2">
+            <p class="mx-3 mt-2 text-overflow">
             {description}
             </p>
           </p>
