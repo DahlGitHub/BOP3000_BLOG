@@ -103,8 +103,8 @@ return (
             />
 
             <BlogCard 
-            icon={<i class="fa-solid fa-lightbulb fa-stack-1x text-success"></i>}
-            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-success"></i>}
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
 
             title="Core components" 
             date="Week 9 | Sprint 2" 
@@ -114,8 +114,8 @@ return (
             />
 
             <BlogCard 
-            icon={<i class="fa-solid fa-lightbulb fa-stack-1x text-success"></i>}
-            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-success"></i>}
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
 
             title="Core components" 
             date="Week 10 | Sprint 2" 
