@@ -123,6 +123,62 @@ return (
             author="Martin"
             img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
             />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="Core components V2" 
+            date="Week 11 | Sprint 3" 
+            description="We’ve progressed on the landing page. We’ve added data from user for chat. We’ve made a contact list for user. We’ve started making a kanban board. We’ve begun looking at creating groups"
+            author="Henrik"
+            img_author="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg"
+            />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="Styling the components" 
+            date="Week 12 | Sprint 3" 
+            description="Most of the functions have been styled accordingly, tested along with UX and some UI."
+            author="Adrian"
+            img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
+            />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="Testable Product" 
+            date="Week 13 | Sprint 3" 
+            description="This week we made a lot of progress on our main features. we all had to put in a bit more work this week since we realized we were a bit behind schedule. the focus is producing a version that is testable by other users, so we can gather information and input of whats good and what needs to change."
+            author="Jøran"
+            img_author="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
+            />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-code fa-stack-1x text-primary"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-primary"></i>}
+
+            title="Preperations" 
+            date="Week 14 | Sprint 3" 
+            description="The team has continued working on tasks such as the chat and the kanban board. We will focus on implementing important tools to the project, and prepare for the upcoming Milestone 3 presentation."
+            author="Martin"
+            img_author="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
+            />
+
+            <BlogCard 
+            icon={<i class="fa-solid fa-pencil fa-stack-1x text-warning"></i>}
+            iconbg={<i class="fa-solid fa-diamond fa-stack-2x opacity-25 text-warning"></i>}
+
+            title="Design Finalization" 
+            date="Week 15 | Sprint 3" 
+            description="User settings, files management and kanban have been polished with styling and is functionally working accordingly as intented in the project description."
+            author="Adrian"
+            img_author="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
+            />
+
         </div>
             
         </div>
