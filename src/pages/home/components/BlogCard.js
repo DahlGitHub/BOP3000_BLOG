@@ -6,7 +6,7 @@ const BlogCard = ({icon, iconbg, title, date, description, author, img_author}) 
         
         <div class="card-body my-3" data-aos="fade-down" data-aos-duration="800">
         <div class="d-flex justify-content-between p-2 bg-light rounded">
-          <h5 class="card-title text-sub-title m-1">{title}</h5>
+          <p class="card-title text-sub-title m-1">{title}</p>
           <span class="fa-stack fa-1x">
             {iconbg}
           {icon}
