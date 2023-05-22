@@ -30,16 +30,10 @@ const Description = () => {
                       /></span>
                     </span>
                     <p class="text-content mt-4">
-                    Målet vårt med prosjektet er å utvikle en applikasjon som gjør det enklere for grupper å
-                    kommunisere, organisere, strukturere osv. arbeid innad i gruppen. Siden det finnes diverse
-                    verktøy man kan ta i bruk allerede i dag, er planen å gjøre undersøkelser av grupper som
-                    bruker andre verktøy for å se hva de liker og muligens savner i andre applikasjoner.
+                    Our goal with the project is to develop an application that makes it easier for groups to communicate, organize, structure, and so on, their work within the group. Since there are various tools already available today, the plan is to conduct surveys of groups that use other tools to see what they like and possibly miss in other applications.
                     </p>
                     <br/>
-                    <p class="text-content">Visjonen for applikasjonen Hexacore er en plattform som benytter ulike planleggingsverktøy
-                    for effektivisering av arbeid, slik at grupper kan velge selv hva de trenger for plattformen.
-                    Studenter som skal jobbe sammen i prosjekter eller organisasjoner med mange subgrupper
-                    er de mest logiske sluttbrukerne mener vi.
+                    <p class="text-content">The vision for the application Hexacore is a platform that utilizes various planning tools to streamline work so that groups can choose what they need for the platform themselves. We believe that students who need to work together on projects or organizations with many subgroups are the most logical end users.
                     </p>
          
                 </div>
