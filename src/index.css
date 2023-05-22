@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -102,7 +103,7 @@ bottom: 0px;
     }
 }
 .text-error {
-    font-family: "Title";
+    font-family: Poppins;
     display: inline-block;
     width: 100%;
     font-size: 8rem;
@@ -114,7 +115,7 @@ bottom: 0px;
 /* Image scaling for card*/
 
 .text-sub-number, .text-number {
-    font-family: "Title";
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     width: 100%;
 }
@@ -124,17 +125,17 @@ bottom: 0px;
 }
 
 .text-sub-title, .text-title {
-    font-family: "Title";
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-content {
-    font-family: "ContentText";
+    font-family: 'Poppins', sans-serif;
     
 }
 
 .text-nav {
-    font-family: "ContentText";
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .test {
@@ -176,6 +177,10 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .bg-red {
     background-color: #F87374;
+}
+
+.text-purple {
+    color:#9d39bc
 }
 
 .text-blue {
@@ -222,20 +227,20 @@ footer > p:hover {
 }
 
 .program-text {
-    font-family: "TTFont-Light";
+    font-family: "Poppins";
 }
 
 .navfont-text {
-    font-family: "TTFont-Normal";
+    font-family: "Poppins-Regular";
 }
 
 .landing-text {
-    font-family: "TTFont-Bold";
+    font-family: "Poppins-Bold";
     text-transform: uppercase;
 }
 
 .f-text {
-    font-family: "TTFont";
+    font-family: "Popppins";
     font-weight: normal!important;
 }
 
