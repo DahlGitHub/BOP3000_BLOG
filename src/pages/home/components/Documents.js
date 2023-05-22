@@ -1,7 +1,9 @@
 import InfoBlock from "./InfoBlock";
 import Sketch from "../../../assets/pdf/Sketch.pdf";
-import Description from "../../../assets/pdf/Description.pdf"
-import Presentation from "../../../assets/pdf/Presentation.pdf"
+import Description from "../../../assets/pdf/Description.pdf";
+import Presentation from "../../../assets/pdf/Presentation.pdf";
+import Presentasjon2 from "../../../assets/pdf/Presentasjon2.pdf";
+import Presentasjon3 from "../../../assets/pdf/Presentasjon3.pdf";
 
 const Documents = () => {
 
@@ -32,7 +34,7 @@ const Documents = () => {
             iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-primary"></i>}/>
 
         <InfoBlock title="Agreement.docx"
-            description="Coming soon"
+            description="Confidential."
                         icon={<i class="fa-solid fa-file-word fa-stack-1x bg-fix block w-100 mb-4 text-dark"></i>}
             iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-dark"></i>}/>
 
@@ -48,20 +50,26 @@ const Documents = () => {
             icon={<i class="fa-solid fa-file-powerpoint fa-stack-1x bg-fix block w-100 mb-4 text-red"></i>}
             iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-red"></i>}/>
 
-        <InfoBlock title="Presentation 2.pptx"
-            description="Coming soon"
-            icon={<i class="fa-solid fa-file-powerpoint fa-stack-1x bg-fix block w-100 mb-4 text-dark"></i>}
-            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-dark"></i>}/>
+        <InfoBlock 
+            link={Presentasjon2}
+            title="Presentation 2.pptx"
+            description="Milestone 2 is complete, with a small presentation of our project."
+            icon={<i class="fa-solid fa-file-powerpoint fa-stack-1x bg-fix block w-100 mb-4 text-red"></i>}
+            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-red"></i>}/>
 
-        <InfoBlock title="Presentation 3.pptx"
-            description="Coming soon"
-            icon={<i class="fa-solid fa-file-powerpoint fa-stack-1x bg-fix block w-100 mb-4 text-dark"></i>}
-            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-dark"></i>}/>
+        <InfoBlock 
+            link={Presentasjon3}
+            title="Presentation 3.pptx"
+            description="Milestone 3 is complete, with a small presentation of our project."
+            icon={<i class="fa-solid fa-file-powerpoint fa-stack-1x bg-fix block w-100 mb-4 text-red"></i>}
+            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-red"></i>}/>
             
-        <InfoBlock title="GitHub"
-            description="Coming soon"
+        <InfoBlock 
+            link="https://github.com/DahlGitHub/hexacore"
+            title="GitHub"
+            description="GitHub repository for the Hexacore project."
             icon={<i class="fa-brands fa-github fa-stack-1x bg-fix block w-100 mb-4"></i>}
-            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-dark"></i>}/>           
+            iconbg={<i class="fa-solid fa-square fa-stack-2x opacity-25 text-purple"></i>}/>           
         </div>
     </div>
   </div>
