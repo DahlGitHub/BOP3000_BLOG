@@ -13,17 +13,17 @@ const Footer = () => {
   <div class="row mt-3">
   
     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
-      <img src={logo} width="100"/>
+      <img src={logo} width="100" alt='logo'/>
     </div>
 
     <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-4 small">
 
       <h6 class="pb-4 text-sub-title small">Project</h6>
       <p>
-      <i class="fa-solid fa-cube fa-sm me-2"></i><HashLink smooth to="" class="text-dark text-decoration-none hvr-underline-reveal text-content">Deployment</HashLink>
+      <i class="fa-solid fa-cube fa-sm me-2"></i><a href="https://hexacore.no/" target="_blank" rel="noreferrer" class="text-dark text-decoration-none hvr-underline-reveal text-content">Deployment</a>
       </p>
       <p>
-      <i class="fa-brands fa-github fa-sm me-2"></i><HashLink href="" target="_blank" class="text-dark text-decoration-none hvr-underline-reveal text-content">GitHub Repository</HashLink>
+      <i class="fa-brands fa-github fa-sm me-2"></i><a href="https://github.com/DahlGitHub/hexacore" target="_blank" rel="noreferrer" class="text-dark text-decoration-none hvr-underline-reveal text-content">GitHub Repository</a>
       </p>
 
     </div>
@@ -45,7 +45,7 @@ const Footer = () => {
 
       <h6 class="pb-4 text-sub-title small">Address</h6>
 
-      <p><i class="fa-solid fa-location-dot fa-sm me-2"></i><a href="https://www.google.com/maps/place/Gullbringvegen+36,+3800+B%C3%B8,+Norge/@59.408752,9.0598326,17z/data=!3m1!4b1!4m5!3m4!1s0x46474937aa317627:0x31bd8465aebe863c!8m2!3d59.408752!4d9.0598326" target="_blank" class="text-decoration-none hvr-underline-reveal text-dark text-content">Gullbringvegen 36, 3800 Bø, Norge</a></p>
+      <p><i class="fa-solid fa-location-dot fa-sm me-2"></i><a href="https://www.google.com/maps/place/Gullbringvegen+36,+3800+B%C3%B8,+Norge/@59.408752,9.0598326,17z/data=!3m1!4b1!4m5!3m4!1s0x46474937aa317627:0x31bd8465aebe863c!8m2!3d59.408752!4d9.0598326" target="_blank" rel="noreferrer" class="text-decoration-none hvr-underline-reveal text-dark text-content">Gullbringvegen 36, 3800 Bø, Norge</a></p>
     </div>
 
   </div>
