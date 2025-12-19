@@ -16,7 +16,7 @@ const Tech = () => {
           <span class="text-red">
             <Typewriter 
               options={{
-                strings: ['TypeScript', 'React', 'PostgreSQL', 'JavaScript', 'Adobe Xd', 'GitHub', 'Firebase', 'HTML5', 'CSS3', 'NodeJS', 'Trello'],
+                strings: ['TypeScript', 'React', 'JavaScript', 'Adobe Xd', 'GitHub', 'Firebase', 'HTML5', 'CSS3', 'NodeJS', 'Trello'],
                 autoStart: true,
                 loop: true,
                 delay: 100,
@@ -56,9 +56,6 @@ const Tech = () => {
     </div>
     <div class='item'>
       <i class="devicon-github-original colored"></i>      
-    </div>
-    <div class='item'> 
-      <i class="devicon-postgresql-plain colored"></i>          
     </div>
     <div class='item'> 
       <i class="devicon-firebase-plain colored"></i>             

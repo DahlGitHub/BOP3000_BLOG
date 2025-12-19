@@ -112,7 +112,7 @@ const TeamCard = ({name, role, image, github, linkedin, color}) => (
           name={<Adrian/>}
           role="Developer" 
           color="text-green"
-          image="https://cdn.discordapp.com/attachments/745379181214433454/933000365685760030/unknown.png"
+          image="https://cdn.discordapp.com/attachments/1349408288290242593/1451566624414109806/IMG_4643_1.png?ex=6946a444&is=694552c4&hm=4e46403ecd1003b6a9827ee0174b09dea5078a6b98cc230a7179625b84c0e84a&"
           linkedin=""
    
           github="https://github.com/DahlGitHub"/>
@@ -121,7 +121,7 @@ const TeamCard = ({name, role, image, github, linkedin, color}) => (
           name={<Martin/>}
           color="text-green"
           role="Developer" 
-          image="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg"
+          image="https://cdn.discordapp.com/attachments/1064270341901389865/1064920855035007087/CV_bilde.jpg?ex=69461015&is=6944be95&hm=efafc791053b66505c1bbeac6906a9e5e0d1b4a99734a28a6590e3cdbb1a9240&"
           linkedin=""
           
           github="https://github.com/Wohine"/>
@@ -130,7 +130,7 @@ const TeamCard = ({name, role, image, github, linkedin, color}) => (
           name={<Jøran/>}
           color="text-pastelred"
           role="Developer" 
-          image="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg"
+          image="https://cdn.discordapp.com/attachments/1021153022576959501/1065007817859268618/jran1.jpg?ex=69466112&is=69450f92&hm=c4172a1d5d8277ba5fb3e34d9f9479508a6dc39a1b54b612329e5d58c8d4af91&"
           linkedin=""
         
           github="https://github.com/Jorancj"/>
@@ -139,7 +139,7 @@ const TeamCard = ({name, role, image, github, linkedin, color}) => (
           name={<Henrik/>}
           color="text-green"
           role="Developer" 
-          image="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg"
+          image="https://cdn.discordapp.com/attachments/1062428707639275650/1066377474100957204/henrik.jpg?ex=694616aa&is=6944c52a&hm=0751b0d4380b26e262092ffb2ed485e96897bd110b9184e266f6e6c88e9379b7&"
           linkedin=""
        
           github="https://github.com/Linrik/"/>
